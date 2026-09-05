@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CV page</title>
+</head>
+
+<body>
+    <header class="header">
+        <img src="assets/avatar.svg" alt="My avatar" class="avatar">
+        <h1 class="header_title">Sadyrov Iskak | CV</h1>
+        <h2 class="header_subtitle">Frontend Developer</h2>
+    </header>
+    <main>
+        <section class="skills">
+            <h3>Skills</h3>
+            <details>
+                <summary>Skills list: </summary>
+                <ol>
+                    <li>1. HTML</li>
+                    <li>2. CSS</li>
+                    <li>3. JavaScript</li>
+                    <li>4. React</li>
+                    <li>5. TypeScript</li>
+                </ol>
+            </details>
+        </section>
+
+        <article class="article">
+            <h4>Short article about me</h4>
+
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus, libero doloremque optio numquam
+                eligendi nesciunt maxime? Error labore necessitatibus fuga! Nesciunt tempore quia eos quidem sequi
+                architecto, placeat temporibus. Quo animi dicta minima odit aperiam totam quis voluptas labore sequi!
+                Beatae, eius quis? Cum ratione dolor earum culpa? Dolorum, quam?</p>
+        </article>
+
+        <section class="gallery">
+            <h3>Gallery</h3>
+            <img src="https://placehold.co/250X250" alt="placehold image" class="gallery_img">
+            <img src="https://placehold.co/250X250" alt="placehold image" class="gallery_img">
+            <img src="https://placehold.co/250X250" alt="placehold image" class="gallery_img">
+        </section>
+        <hr class="separator">
+        <section>
+            <iframe class="video" src="https://www.youtube.com/embed/GQJrzIJEsJ0" title="Что такое frontend?"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+
+        <section class="hobbies">
+            <h4>My hobbies: </h4>
+            <details>
+                <summary>Hobbies</summary>
+                <ol>
+                    <li>Science</li>
+                    <li>Frontend</li>
+                    <li>Walking</li>
+                </ol>
+            </details>
+        </section>
+        <hr class="separator">
+
+        <section class="ed">
+            <table class="ed_table">
+                <thead>
+                    <tr>
+                        <th>School</th>
+                        <th>Profession</th>
+                        <th>Year</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>High school</td>
+                        <td>No profession</td>
+                        <td>2023</td>
+                    </tr>
+                    <tr>
+                        <td>IT Academy</td>
+                        <td>Frontend Dev</td>
+                        <td>2024</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="quote">
+            <blockquote>
+                Только вперед!
+            </blockquote>
+        </section>
+
+        <section class="interaction">
+            <form action="http://ya.ru" method="get" class="form" target="_blank">
+                <fieldset>
+                    <legend>Required fields</legend>
+                    <label for="firstName-id">First name: </label>
+                    <br>
+                    <input type="text" name="firstName" id="firstName-id" placeholder="Type your first name" required
+                        class="form_control">
+                    <label for="lastName-id">Last name: </label>
+                    <br>
+                    <input type="text" name="lastName" id="lastName-id" placeholder="Type your last name" required
+                        class="form_control">
+                    <label for="email-id">Email: </label>
+                    <br>
+                    <input type="email" name="email" id="email-id" placeholder="Type your email" required
+                        class="form_control">
+                </fieldset>
+
+                <br>
+                <textarea name="questions" id="questions-id" cols="30" rows="5" class="form_control control_text"
+                    placeholder="Type your question"></textarea>
+                <button class="form_submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <br>
+    <footer>
+        <address>
+            <a href="mailto:lolkek@example.com" class="contacts_link">lolkek@example.com</a>
+            <br>
+            <br>
+            <a href="tel:+99999999999" class="contacts_link">+99999999999</a>
+        </address>
+    </footer>
+</body>
+
+</html>
